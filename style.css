@@ -1,0 +1,398 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 200hv;
+    background-image: url(Images/bg2.jpg);
+    padding-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 70px;  
+    
+    
+}
+
+nav{
+    display: flex;
+    width: 98%;
+    margin:auto;
+    padding: 10px 2%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.075);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+
+    
+    
+}
+nav .logo{
+    height: 40px;
+    margin-left: 20px;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(206, 168, 168);
+    font-weight: bold;
+    
+}
+img{
+    width: 20%;
+    height: auto;
+}
+
+
+.details{
+    margin-left: 5%;
+    margin-top: 13%;
+    
+}
+.details h1{
+    font-size: 40px;
+    color: #e2d0d0;
+    margin-bottom: 20px;
+}
+span{
+    color: orangered;
+}
+
+.details p{
+    color: rgb(46, 38, 38);
+    line-height: 22px;
+}
+
+.details a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.images{
+    width: 60%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+.images img{
+    height: 85%;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+}
+.images .boy{
+    height: 70%;
+    width: auto;
+    position: absolute;
+    bottom: 10%;
+}
+
+.images:hover .shape{
+    bottom: 5%;
+}
+
+.images:hover .boy{
+    left: 46%;
+}
+
+
+
+.about{
+    position: relative;
+    width: 100%;
+    /*height: 200vh;*/height: auto;
+    padding-top: 100px;
+    Background-image: url(Images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.about h1{
+    margin-top: 5%;
+    font-size: 35px;
+    color: rgb(72, 247, 247);
+    margin-left: 3%;
+    text-align: center;
+    
+}
+.about p{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+
+
+
+.skill{
+    margin-top: 8%;
+    text-align: center;
+    /*width: 500px;*/
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(241, 241, 241, 0.25), 0 10px 10px rgba(146, 21, 21, 0.22);
+    width: 90%;
+}
+.skill h2{
+    font-size: 35px;
+    color: rgb(72, 247, 247);
+    margin-left: 3%;
+    
+}
+.skill h3{
+    margin-top: 6px;
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+    color: #ffffff;
+}
+.bar{
+    background-color: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px soild rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(241, 241, 241, 0.12), 0 1px 2px rgba(146, 21, 21, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(241, 241, 241, 0.25), 0 10px 10px rgba(146, 21, 21, 0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background:linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252, 103, 103, 1)100%)
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 80%;
+    animation: css 3s;
+}
+.php{
+    width: 79%;
+    animation: php 3s;
+}
+.javasrcipt{
+    width: 86%;
+    animation: javasrcipt 3s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes php {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 79%;
+    }
+}
+@keyframes javasrcipt {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 86%;
+    }
+}
+
+
+.services{
+    
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    Background-image: url(Images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.services h2{
+    font-size: 35px;
+    color: rgb(72, 247, 247);
+    margin-left: 3%;
+    margin-bottom: 5%;
+    
+}
+.services h3{
+    margin-top: 30%;
+    color: aqua;
+    margin-left: 10%;
+    margin-bottom: 6%;
+    margin-top: 9%;
+    
+    
+}
+.services .subser{
+    border-radius: 10px;
+    width: 280px;
+    height: 200px;
+    background-color: #1cd3eb1f;
+    border: 1px solid #dfad0b80;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    
+    
+    
+    
+     
+}
+
+.services p{
+    text-align: left;
+    margin-top: 6%;
+}
+.conimg{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-image: url(Images/bg2.jpg);
+    padding-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.conimg h2  {
+    text-align: center;
+    color: yellow;
+    padding-bottom: 6%;
+}
+.conimg p{
+    text-align: left;
+    padding:10px;
+    padding-top: 30px;
+    width: 500px;
+    margin-left: 50px auto;
+    box-shadow: 0 10px 28px rgba(233, 200, 200, 0.719);
+    margin-left: 2%;
+    flex-grow: 1;
+    border: 1px solid #993c3c;
+    
+}
+.contact-details {
+    text-align: left;
+}
+.contact-form {
+    flex-grow: 1;
+    margin-left: 55%;
+}
+
+
+.form-group{
+    margin-bottom: 20px;
+    text-align: left;
+    padding:1ch;
+    padding-top: 30px;
+    width: 500px;
+    margin-right: 20px ;
+    box-shadow: 0 10px 28px rgba(233, 200, 200, 0.719);
+    width: 90%;
+    
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0e0f02;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"]
+{
+
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #993c3c;
+    border-radius: 5px;
+}
+.form-group textarea[type="message"]{
+    
+    padding: 10px;
+    border: 1px solid #993c3c;
+}
+
+
+.form-group input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Add media queries for specific screen sizes */
+/*@media screen and (min-width: 784px) {
+    .hero {
+        height: 100vh;
+        padding-bottom: 100px;
+        width: 100%;
+    }
+
+    nav {
+        padding: 5px 2%;
+        
+        
+    }
+
+    .details {
+        margin-top: 13%;
+    }
+
+    .images {
+        display: flex;
+    }
+}*/
